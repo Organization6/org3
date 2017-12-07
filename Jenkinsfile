@@ -2,7 +2,7 @@
 properties([
     [$class: 'GithubProjectProperty',
     displayName: '',
-    projectUrlStr: https://github.com/Organization6/org3/,
+    projectUrlStr: 'https://github.com/Organization6/org3/'],
     pipelineTriggers([githubPush()])])
 
 pipeline {
